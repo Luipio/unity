@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Marquee from 'react-double-marquee';
+import { Button } from './components/Buttons';
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
-				<p>
-					Edit <code>src/App.js</code>and save to reload.
-				</p>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
-			</header>
+		<div
+			style={{
+				width: '200px',
+				whiteSpace: 'nowrap',
+			}}
+		>
+			<Marquee>Some really really really really really long text</Marquee>
+			<Button primary>claim</Button>
+			<Button>litepaper</Button>
 		</div>
 	);
 }
