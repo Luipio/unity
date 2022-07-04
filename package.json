@@ -9,6 +9,7 @@
 		"@testing-library/user-event": "^13.5.0",
 		"framer-motion": "^6.3.16",
 		"gh-pages": "^4.0.0",
+		"heroku": "^7.60.2",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-double-marquee": "^1.1.0",
@@ -17,8 +18,8 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
+		"start": "node --max_old_space_size=2560 node_modules/.bin/react-scripts start",
+		"build": "node --max_old_space_size=2560 node_modules/.bin/react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"predeploy": "npm run build",
