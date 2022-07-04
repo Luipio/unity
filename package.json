@@ -25,7 +25,6 @@
 		"deploy": "gh-pages -b develop -d build",
 		"lint": "eslint . --fix --max-warnings=0",
 		"format": "prettier . --write",
-		"prepare": "husky install"
 	},
 	"eslintConfig": {
 		"extends": [
