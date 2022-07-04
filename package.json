@@ -24,7 +24,7 @@
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -b develop -d build",
 		"lint": "eslint . --fix --max-warnings=0",
-		"format": "prettier . --write",
+		"format": "prettier . --write"
 	},
 	"eslintConfig": {
 		"extends": [
