@@ -1,20 +1,9 @@
 import React from 'react';
-import Marquee from 'react-double-marquee';
-import { Button } from './components/Buttons';
+import Home from './containers/Home';
+import './App.css';
 
 function App() {
-	return (
-		<div
-			style={{
-				width: '200px',
-				whiteSpace: 'nowrap',
-			}}
-		>
-			<Marquee>Some really really really really really long text</Marquee>
-			<Button primary>claim</Button>
-			<Button>litepaper</Button>
-		</div>
-	);
+	return <Home />;
 }
 
 export default App;
