@@ -9,7 +9,7 @@ const TickerBlock = styled.div`
 
 const Image = styled.img`
 	width: 300px;
-	@media(min-width: 1040px){
+	@media (min-width: 1040px) {
 		width: 685px;
 	}
 `;

@@ -18,15 +18,15 @@ export const Button = styled.button`
 	width: 124.97px;
 	height: 35.32px;
 	border-image-slice: 1;
-	
-	@media(min-width: 1040px){
+
+	@media (min-width: 1040px) {
 		width: 230px;
 		height: 65px;
 		font-size: 22px;
 		font-weight: 400;
 		line-height: 22px;
 
-		&:first-child{
+		&:first-child {
 			margin-right: 100px;
 		}
 	}

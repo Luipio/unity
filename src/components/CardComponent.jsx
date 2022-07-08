@@ -1,7 +1,7 @@
 import React, { useEffect, useCallback, useState, useRef } from 'react';
 import { motion, useAnimation, useAnimationFrame } from 'framer-motion';
 import Card from '../img/mainCard.svg';
-import {CardBlock} from '../containers/HomeStyles';
+import { CardBlock } from '../containers/HomeStyles';
 
 const CardComponent = () => {
 	const [rotateVal, setRotate] = useState(360);

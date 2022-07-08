@@ -4,7 +4,7 @@ import { Button } from '../components/Buttons';
 import Ticker from '../components/Ticker';
 import { comingSoonArr, futureArr } from '../constants/constants';
 import CardComponent from '../components/CardComponent';
-import Socials from "../components/Socials";
+import Socials from '../components/Socials';
 
 const Home = () => {
 	return (
