@@ -4,6 +4,7 @@ import { Button } from '../components/Buttons';
 import Ticker from '../components/Ticker';
 import { comingSoonArr, futureArr } from '../constants/constants';
 import CardComponent from '../components/CardComponent';
+import Socials from "../components/Socials";
 
 const Home = () => {
 	return (
@@ -14,6 +15,7 @@ const Home = () => {
 				<Button primary>claim</Button>
 				<Button>litepaper</Button>
 			</ButtonBlock>
+			<Socials />
 			<Ticker imgArr={comingSoonArr} direction="right" />
 		</HomeContainer>
 	);
