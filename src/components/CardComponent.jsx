@@ -1,6 +1,6 @@
 import React, { useEffect, useCallback, useState, useRef } from 'react';
 import { motion, useAnimation, useAnimationFrame } from 'framer-motion';
-import Card from '../img/mainCard.svg';
+import Card from '../img/mainVideo.gif';
 import { CardBlock } from '../containers/HomeStyles';
 
 const CardComponent = () => {
@@ -42,11 +42,36 @@ const CardComponent = () => {
 			rotate: rotateVal,
 		});
 	}, [controls]);
+
+	function getWindowSize() {
+		const { innerWidth } = window;
+		return innerWidth;
+	}
+
+	const [windowSize, setWindowSize] = useState(getWindowSize());
+
+	useEffect(() => {
+		function handleWindowResize() {
+			setWindowSize(getWindowSize());
+		}
+
+		window.addEventListener('resize', handleWindowResize);
+
+		return () => {
+			window.removeEventListener('resize', handleWindowResize);
+		};
+	}, []);
+
 	return (
 		<CardBlock>
 			<motion.img
+				style={{
+					width: windowSize > 1040 ? '400px' : '240px',
+					height: windowSize > 1040 ? '400px' : '240px',
+					borderRadius: '50%',
+				}}
 				ref={ref}
-				width="width: 257.6870504048466px"
+				width="width: 100px"
 				src={Card}
 				alt="magic"
 				exit="exit"

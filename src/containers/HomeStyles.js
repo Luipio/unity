@@ -5,11 +5,11 @@ import desktopBG from '../img/desktopBG.png';
 
 export const HomeContainer = styled.div`
 	display: grid;
-	background-color: #0e0e0e;
-	background-image: url(${mobileBG});
+	background-color: #000000;
+	//background-image: url(${mobileBG});
 	background-size: cover;
 	@media (min-width: 1040px) {
-		background-image: url(${desktopBG});
+		//background-image: url(${desktopBG});
 	}
 	height: 100%;
 	margin: 0;
