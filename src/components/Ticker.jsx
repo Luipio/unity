@@ -5,6 +5,9 @@ import styled from 'styled-components';
 const TickerBlock = styled.div`
 	width: 100vw;
 	white-space: nowrap;
+	@media (min-width: 1040px) {
+		margin-top: ${({ bottomTicker }) => (bottomTicker ? '20vh' : '0px')};
+	}
 `;
 
 const Image = styled.img`
@@ -14,9 +17,9 @@ const Image = styled.img`
 	}
 `;
 
-const Ticker = ({ direction, imgArr }) => {
+const Ticker = ({ direction, imgArr, bottomTicker }) => {
 	return (
-		<TickerBlock>
+		<TickerBlock bottomTicker={bottomTicker}>
 			<Marquee
 				height={30}
 				childMargin={0}

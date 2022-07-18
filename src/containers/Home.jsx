@@ -16,7 +16,7 @@ const Home = () => {
 				<Button>litepaper</Button>
 			</ButtonBlock>
 			<Socials />
-			<Ticker imgArr={comingSoonArr} direction="right" />
+			<Ticker imgArr={comingSoonArr} direction="right" bottomTicker />
 		</HomeContainer>
 	);
 };

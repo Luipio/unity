@@ -8,10 +8,11 @@ export const HomeContainer = styled.div`
 	background-color: #000000;
 	//background-image: url(${mobileBG});
 	background-size: cover;
+	height: 100vh;
 	@media (min-width: 1040px) {
 		//background-image: url(${desktopBG});
+		height: inherit;
 	}
-	height: 100%;
 	margin: 0;
 	padding-top: 19.67px;
 `;
@@ -25,6 +26,7 @@ export const ButtonBlock = styled.div`
 	@media (min-width: 1040px) {
 		display: flex;
 		flex-direction: row;
+		margin-top: 110px;
 	}
 `;
 
