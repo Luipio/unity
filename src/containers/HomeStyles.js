@@ -18,7 +18,7 @@ export const HomeContainer = styled.div`
 `;
 
 export const ButtonBlock = styled.div`
-	display: grid;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;

@@ -13,7 +13,6 @@ const Home = () => {
 			<CardComponent />
 			<ButtonBlock>
 				<Button primary>claim</Button>
-				<Button>litepaper</Button>
 			</ButtonBlock>
 			<Socials />
 			<Ticker imgArr={comingSoonArr} direction="right" bottomTicker />

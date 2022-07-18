@@ -25,9 +25,5 @@ export const Button = styled.button`
 		font-size: 22px;
 		font-weight: 400;
 		line-height: 22px;
-
-		&:first-child {
-			margin-right: 100px;
-		}
 	}
 `;
