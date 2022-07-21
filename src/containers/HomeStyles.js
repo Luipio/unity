@@ -3,6 +3,10 @@ import styled from 'styled-components';
 import mobileBG from '../img/mobileBG.png';
 import desktopBG from '../img/desktopBG.png';
 
+export const HomeContainerWrapper = styled.div`
+	background-color: black;
+`;
+
 export const HomeContainer = styled.div`
 	display: grid;
 	background-color: #000000;
@@ -67,6 +71,11 @@ export const SocialBlock = styled.div`
 			width: 46px;
 		}
 	}
+`;
+
+export const LastTickerWrapper = styled.div`
+	height: 10vh;
+	background-color: black;
 `;
 
 export const CardBlock = styled.div`

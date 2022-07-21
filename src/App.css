@@ -1,11 +1,10 @@
 @media screen and (min-width: 2560px) {
 	html {
-		height: 100vh
+		height: 100vh;
 	}
 }
 
 html {
-
 }
 body {
 	margin: 0;
