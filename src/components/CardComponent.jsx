@@ -1,11 +1,11 @@
 import React, { useEffect, useCallback, useState, useRef } from 'react';
 import { motion, useAnimation, useAnimationFrame } from 'framer-motion';
-import Card from '../img/mainVideo.gif';
+import Card from '../img/vid_0.gif';
 import { CardBlock } from '../containers/HomeStyles';
 
 const CardComponent = () => {
-	const [rotateVal, setRotate] = useState(360);
-	const [refData, setRefData] = useState(360);
+	const [rotateVal, setRotate] = useState(0);
+	const [refData, setRefData] = useState(0);
 	const controls = useAnimation();
 	const ref = useRef(null);
 	const transition = {
@@ -67,11 +67,9 @@ const CardComponent = () => {
 			<motion.img
 				style={{
 					width: windowSize > 1040 ? '400px' : '240px',
-					height: windowSize > 1040 ? '400px' : '240px',
-					borderRadius: '50%',
+					height: windowSize > 1040 ? '300px' : '140px',
 				}}
 				ref={ref}
-				width="width: 100px"
 				src={Card}
 				alt="magic"
 				exit="exit"
