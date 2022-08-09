@@ -12,5 +12,17 @@
 		"sourceType": "module"
 	},
 	"plugins": ["react"],
-	"rules": {}
+	"rules": {
+		"import/prefer-default-export": "off",
+		"react/function-component-definition": "off",
+		"arrow-body-style": "off",
+		"no-unused-vars": "off",
+		"react/jsx-no-useless-fragment": "off",
+		"react/react-in-jsx-scope": "off",
+		"import/no-named-as-default": 0,
+		"react/prop-types": "off",
+		"react/no-array-index-key": "off",
+		"no-bitwise": "off",
+		"no-unneeded-ternary": "off"
+	}
 }
