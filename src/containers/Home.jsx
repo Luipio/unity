@@ -4,6 +4,7 @@ import {
 	HomeContainer,
 	HomeContainerWrapper,
 	LastTickerWrapper,
+	ClaimLink,
 } from './HomeStyles';
 import { Button } from '../components/Buttons';
 import Ticker from '../components/Ticker';
@@ -18,7 +19,13 @@ const Home = () => {
 				<Ticker imgArr={futureArr} direction="left" />
 				<CardComponent />
 				<ButtonBlock>
-					<Button primary>claim</Button>
+					<ClaimLink
+						target="_blank"
+						rel="noreferrer"
+						href="https://gleam.io/eg0Q7/unity-nft-airdrop"
+					>
+						<Button primary>claim</Button>
+					</ClaimLink>
 				</ButtonBlock>
 				<Socials />
 			</HomeContainer>

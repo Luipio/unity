@@ -84,6 +84,6 @@ export const CardBlock = styled.div`
 	justify-content: center;
 `;
 
-export const CardImg = {
-	cursor: 'pointer',
-};
+export const ClaimLink = styled.a`
+	cursor: pointer;
+`;

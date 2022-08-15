@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Button = styled.button`
+	cursor: pointer;
 	/* Adapt the colors based on primary prop */
 	background: linear-gradient(
 		94.03deg,
