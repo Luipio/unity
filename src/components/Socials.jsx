@@ -10,7 +10,7 @@ import disActive from '../img/DisIconActive.png';
 const Socials = () => {
 	return (
 		<SocialBlock>
-			<a target="_blank" rel="noreferrer" href="https://discord.gg/hREeeCsr">
+			<a target="_blank" rel="noreferrer" href="https://discord.gg/bEjStQu8Gx">
 				<img src={disImg} alt="Dischord" />
 				<img id="active" src={disActive} alt="Dischord Active" />
 			</a>
