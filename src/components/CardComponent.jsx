@@ -32,6 +32,7 @@ const CardComponent = () => {
 				loop
 				autoPlay
 				src={Gif}
+				playsInline
 				muted
 			/>
 		</CardBlock>
